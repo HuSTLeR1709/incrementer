@@ -12,3 +12,9 @@ const decrement= () => {
     value=value-1;
     v.innerText=value;
 }   
+
+const reset=()=>{
+    let value =parseInt(v.innerText);
+    value=0;
+    v.innerText=value;
+}
